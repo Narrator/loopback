@@ -8,8 +8,8 @@
     "ttl": {
       "type": "number",
       "ttl": true,
-      "default": 1209600,
-      "description": "time to live in seconds (2 weeks by default)"
+      "default": 5184000,
+      "description": "time to live in seconds (2 weeks by default - changed to 60 days)"
     },
     "created": {
       "type": "Date"
