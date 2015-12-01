@@ -20,7 +20,7 @@ try {
   bcrypt = require('bcryptjs');
 }
 
-var DEFAULT_TTL = 5184000; // 2 weeks in seconds - changed to 60 days
+var DEFAULT_TTL = 300; // 2 weeks in seconds - changed to 60 days
 var DEFAULT_RESET_PW_TTL = 15 * 60; // 15 mins in seconds
 var DEFAULT_MAX_TTL = 31556926; // 1 year in seconds
 var assert = require('assert');
